@@ -1,14 +1,57 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    background-color: rgb(136, 148, 151);
+    padding: 20px;
+    margin: 0;
+  }
+  h1, h2, h3, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: rgb(79, 116, 126);
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active {
+    background-color: rgb(113, 167, 141);
+  }
+  .jumbotron {
+      color: #ebe5dd;
+      text-shadow: 1px 1px #161616;
+      padding: 12em 10em;
+      border-radius: 5px;
+      background-image: url("https://i.imgur.com/qT0gbUL.png?1");
+      background-color: rgb(142, 143, 148);
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    .info {
+        padding-top: 20px;
+    }
