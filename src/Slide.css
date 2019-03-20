@@ -1,0 +1,12 @@
+.slide {
+    border-right: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    width: 120px;
+    white-space: normal;
+}
+
+.slide:last-child {
+    border-right: none;
+}

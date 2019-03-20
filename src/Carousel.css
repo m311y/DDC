@@ -1,4 +1,13 @@
 .carousel-container {
+    display: flex;
     padding: 20px;
+    
+}
+
+.carousel-viewport {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     border: 1px solid black;
 }
