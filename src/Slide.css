@@ -10,3 +10,9 @@
 .slide:last-child {
     border-right: none;
 }
+
+@media ( min-width: 1000px ) {
+    .slide {
+      width: 100px;
+    }
+  }
