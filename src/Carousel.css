@@ -10,4 +10,35 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border: 1px solid black;
+    flex-grow: 1;
+}
+
+.carousel-nav {
+    flex-basis: 35px;
+    cursor: pointer;
+    background-color: gray;
+    padding: 0px;
+    border: 1px solid blue;
+    color: white;
+    flex-shrink: 0;
+    outline: none;
+    opacity: .8;
+    transition: opacity .2s ease-in-out;
+
+}
+
+.carousel-nav:focus {
+    border: 1px, solid darkblue;
+}
+
+.carousel-nav:hover {
+    opacity: 1;
+}
+
+.carousel-left-nav {
+
+}
+
+.carousel-right-nav {
+
 }
