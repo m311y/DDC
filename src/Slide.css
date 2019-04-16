@@ -3,7 +3,7 @@
     display: inline-block;
     vertical-align: top;
     height: 200px;
-    width: 200px;
+    width: 300px;
     white-space: normal;
 }
 
@@ -11,13 +11,13 @@
     border-right: none;
 }
 
-.img {
-  
+.image {
+  width:100%
   
 }
 
 @media ( min-width: 1000px ) {
     .slide {
-      width: 200px;
+      width: 300px;
     }
   }
