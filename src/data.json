@@ -2,7 +2,7 @@
     {
         "name": "Alabama",
         "abbreviation": "AL",
-        "img": "./img/export2.jpg'"
+        "image": "/public/img/export2.jpg"
     },
     {
         "name": "Alaska",

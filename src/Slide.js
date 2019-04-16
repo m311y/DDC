@@ -6,10 +6,10 @@ class Slide extends Component {
     render () {
         const {
             name,
-            img
+            image
         } = this.props;
         return(
-            <div className="slide">{img}{name}</div>
+            <div className="slide">{image}{name}</div>
         );
 
     }
