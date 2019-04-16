@@ -58,6 +58,6 @@
     transition: none;
   }
   
-  /*.carousel-viewport::-webkit-scrollbar {
+  .carousel-viewport::-webkit-scrollbar {
     display: none;
-  }*/
+  }
