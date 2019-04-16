@@ -2,9 +2,10 @@
     border-right: 1px solid black;
     display: inline-block;
     vertical-align: top;
-    height: 200px;
+    height: 190px;
     width: 300px;
     white-space: normal;
+    
 }
 
 .slide:last-child {
@@ -12,12 +13,17 @@
 }
 
 .image {
-  width:100%
+  width:100%;
+  vertical-align: middle;
   
 }
 
 @media ( min-width: 1000px ) {
     .slide {
       width: 300px;
+      border-right: 1px solid black;
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
     }
   }

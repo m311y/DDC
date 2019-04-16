@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(136, 148, 151);
+    background-color: rgb(197, 203, 210);
     padding: 20px;
     margin: 0;
     text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@ body {
     margin: 0;
   }
   ul.header {
-    background-color: rgb(79, 116, 126);
+    background-color: rgb(78, 79, 80);
     padding: 0;
     display: flex;
     justify-content: flex-end;
@@ -31,7 +31,7 @@ body {
 
   }
   .content {
-    background-color: #FFF;
+    background-color:rgb(197, 203, 210);
     padding: 20px;
   }
   .content h2 {
@@ -42,14 +42,14 @@ body {
     margin-bottom: 10px;
   }
   .active {
-    background-color: rgb(113, 167, 141);
+    background-color: rgb(85, 99, 175);
   }
   .jumbotron {
       color: #ebe5dd;
       text-shadow: 1px 1px #161616;
       padding: 12em 10em;
       border-radius: 5px;
-      background-image: url("https://i.imgur.com/qT0gbUL.png?1");
+      background-image: linear-gradient(rgb(197, 203, 210, .9), rgb(124, 124, 124, .5), transparent), url("https://i.imgur.com/L6qcc7d.jpg");
       background-color: rgb(142, 143, 148);
       background-repeat: no-repeat;
       background-position: center;
@@ -64,4 +64,17 @@ body {
     /* Carousel */
     *,  *:before, *:after {
       box-sizing: border-box;
+    }
+
+    /* Contact page*/
+    .contact {
+      background-color:rgb(255, 255, 255);
+      padding: 20px;
+    }
+    .contact h2 {
+      padding: 0;
+      margin: 0;
+    }
+    .contact li {
+      margin-bottom: 10px;
     }
