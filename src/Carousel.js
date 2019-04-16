@@ -170,6 +170,7 @@ class Carousel extends Component {
           name={state.name}
           key={state.abbreviation}
           ref={compSlide=> this.slide = compSlide}
+          img={state.img}
         />
       );
     })

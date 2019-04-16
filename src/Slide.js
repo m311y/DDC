@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './Slide.css';
-import export2 from './img/export2.jpg';
+
 
 class Slide extends Component {
     render () {
         const {
-            name
+            name,
+            img
         } = this.props;
         return(
-            <div className="slide"><img src={export2} /></div>
+            <div className="slide">{img}{name}</div>
         );
 
     }

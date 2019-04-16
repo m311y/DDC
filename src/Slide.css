@@ -2,8 +2,8 @@
     border-right: 1px solid black;
     display: inline-block;
     vertical-align: top;
-    height: 50px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
     white-space: normal;
 }
 
@@ -11,8 +11,12 @@
     border-right: none;
 }
 
+.img {
+  height: 200px;
+}
+
 @media ( min-width: 1000px ) {
     .slide {
-      width: 100px;
+      width: 200px;
     }
   }

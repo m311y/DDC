@@ -1,7 +1,8 @@
 [
     {
         "name": "Alabama",
-        "abbreviation": "AL"
+        "abbreviation": "AL",
+        "img": "./img/export2.jpg'"
     },
     {
         "name": "Alaska",
