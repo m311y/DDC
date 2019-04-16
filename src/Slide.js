@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Slide.css';
+import export2 from './img/export2.jpg';
 
 class Slide extends Component {
     render () {
@@ -7,7 +8,7 @@ class Slide extends Component {
             name
         } = this.props;
         return(
-            <div className="slide">{name}</div>
+            <div className="slide"><img src={export2} /></div>
         );
 
     }
