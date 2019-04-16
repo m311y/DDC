@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import className from 'classnames';
+
  
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="contact" >
         <h2>GOT QUESTIONS?</h2>
         <p>The easiest thing to do is reach out directly to Kraigh Denham at the information listed below.</p>
         <h3>Phone:</h3>
