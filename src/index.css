@@ -78,3 +78,10 @@ body {
     .contact li {
       margin-bottom: 10px;
     }
+
+    /* Portfolio page */
+
+    .body-container {
+      
+      padding-top: 20em;
+    }

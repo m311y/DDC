@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Slideshow.css';
+import './Slideshow.scss';
 import Card from './Card';
 import data from './data/data'
-import logo from './assets/logo.svg';
+
 
 // class component
-class App extends Component {
+class Slideshow extends Component {
 
   constructor(props){
     super(props);
@@ -30,7 +30,7 @@ class App extends Component {
   }
 
   render() {
-    const {property} = this.state;
+    const {properties, property} = this.state;
     return (
       <div className="App">
 
@@ -45,11 +45,21 @@ class App extends Component {
 
         <div className="page">
             <section>
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1>Image slideshow React tutorial.</h1>
+                
+                <h1>A title</h1>
             </section>
 
-            <Card property={property} />
+            <div className="col">
+              <div className={`cards-slider active-slide-${property.index}`}>
+                <div className="cards-slider-wrapper" style={{
+                  'transform': `translateX(-${property.index*(100/properties.length)}%)`
+                }}>
+                  {
+                    properties.map(property => <Card key={property._id} property={property} />)
+                  }
+                </div>
+              </div>
+            </div>
 
         </div>
       </div>
