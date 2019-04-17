@@ -49,7 +49,7 @@ body {
       text-shadow: 1px 1px #161616;
       padding: 12em 10em;
       border-radius: 5px;
-      background-image: linear-gradient(rgb(197, 203, 210, .9), rgb(124, 124, 124, .5), transparent), url("https://i.imgur.com/L6qcc7d.jpg");
+      background-image: linear-gradient(transparent, rgb(124, 124, 124, .5), rgb(197, 203, 210, 1)), url("https://i.imgur.com/L6qcc7d.jpg");
       background-color: rgb(142, 143, 148);
       background-repeat: no-repeat;
       background-position: center;
