@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import 'normalize.css';
-
+import Slideshow from './Slideshow';
 
 
 class Portfolio extends Component {
   render() {
     return (
+      <div >
       <div>
       
-      <Carousel />
-      <div>
+      <Slideshow />
+      </div>
+      <div className="body-container">
         <h2>Portfolio</h2>
         
         <p>Mauris sem velit, vehicula eget sodales vitae,
@@ -22,6 +24,7 @@ class Portfolio extends Component {
           <li>Id porttitor</li>
         </ol>
         
+      
       </div>
       </div>
     );
