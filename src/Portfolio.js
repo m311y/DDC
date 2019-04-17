@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import 'normalize.css';
-
+import Slideshow from './Slideshow';
 
 
 class Portfolio extends Component {
@@ -8,7 +8,7 @@ class Portfolio extends Component {
     return (
       <div>
       
-      <Carousel />
+      <Slideshow />
       <div>
         <h2>Portfolio</h2>
         
